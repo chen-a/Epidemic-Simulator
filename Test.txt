@@ -1,0 +1,12 @@
+population 100;
+infected 1;
+place home  10  0 0.01;
+place work  10  0 0.01;
+role homebody 60 home;
+role worker   40 home work (9-17);
+end 30;
+
+latent       2.0 0;
+asymptomatic 2   0;
+symptomatic  2   0   0.9;
+bedridden    2   0   0.9;

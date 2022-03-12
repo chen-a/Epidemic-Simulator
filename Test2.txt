@@ -1,0 +1,13 @@
+population 100;
+infected 1;
+place earth 100 0 0.001;
+place moon  100 0 .0001;
+place mars  100 0 0.001;
+role human   50 earth  moon (10-12.1);
+role martian 50 mars   moon (12-15);
+end 30;
+
+latent       2.0 0;
+asymptomatic 3   0;
+symptomatic  5   1   0.9;
+bedridden    8   2   0.9;
